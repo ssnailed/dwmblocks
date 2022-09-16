@@ -5,7 +5,7 @@ static const Block blocks[] = {
   {"", "sb-xkbmap",                          0,      15},
   // {"", "sb-tasks",                           10,     26},
   // {"", "sb-music",                           0,      11},
-  {"", "sb-aptpackages",                     0,      8},
+  {"", "sb-pacpackages",                     0,      8},
   // {"", "sb-news",                            0,      6},
   // {"", "sb-torrent",                         20,     7},
   // {"", "sb-mailbox",                         180,    12},
@@ -13,10 +13,10 @@ static const Block blocks[] = {
   {"", "sb-cpubars",                         1,      18},
   {"", "sb-nettraf",                         1,      16},
   {"", "sb-internet",                        5,      4},
-  // {"", "sb-ip",                              5,      13},
+  {"", "sb-ip",                              5,      13},
   {"", "sb-volume",                          0,      10},
   {"", "sb-forecast",                        3600,   5},
-  {"", "sb-battery",                         5,      3},
+  // {"", "sb-battery",                         5,      3},
   {"", "sb-clock",                           60,     1},
 };
 
