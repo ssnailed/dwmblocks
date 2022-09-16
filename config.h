@@ -1,22 +1,23 @@
 //Modify this file to change what commands output to your statusbar, and recompile using the make command.
 static const Block blocks[] = {
   /*Icon*//*Command*/       /*Update Interval*/ /*Update Signal*/
-  {"",  "cat /tmp/recordingicon 2>/dev/null", 0,      9},
-  // {"",  "sb-tasks",                           10,     26},
-  // {"",  "sb-music",                           0,      11},
-  {"",  "sb-pacpackages",                     0,      8},
+  {"", "cat /tmp/recordingicon 2>/dev/null", 0,      9},
+  {"", "sb-xkbmap",                          0,      15},
+  // {"", "sb-tasks",                           10,     26},
+  // {"", "sb-music",                           0,      11},
+  {"", "sb-aptpackages",                     0,      8},
   // {"", "sb-news",                            0,      6},
   // {"", "sb-torrent",                         20,     7},
   // {"", "sb-mailbox",                         180,    12},
-  {"",  "sb-memory",                          10,     14},
-  {"",  "sb-cpubars",                         1,      18},
-  {"",  "sb-nettraf",                         1,      16},
-  // {"", "sb-battery",                       5,      3},
-  {"",  "sb-internet",                        5,      4},
-  {"",  "sb-volume",                          0,      10},
-  {"",  "sb-forecast",                        3600,     5},
-  {"",  "sb-clock",                           60,     1},
-  // {"", "sb-help-icon",                       0,      15},
+  {"", "sb-memory",                          10,     14},
+  {"", "sb-cpubars",                         1,      18},
+  {"", "sb-nettraf",                         1,      16},
+  {"", "sb-internet",                        5,      4},
+  // {"", "sb-ip",                              5,      13},
+  {"", "sb-volume",                          0,      10},
+  {"", "sb-forecast",                        3600,   5},
+  {"", "sb-battery",                         5,      3},
+  {"", "sb-clock",                           60,     1},
 };
 
 //sets delimeter between status commands. NULL character ('\0') means no delimeter.
