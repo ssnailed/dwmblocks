@@ -1,0 +1,11 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-c",
+      "dwmblocks.c"
+    ],
+    "directory": "/home/luca/.local/src/dwmblocks",
+    "file": "/home/luca/.local/src/dwmblocks/dwmblocks.c"
+  }
+]
