@@ -2,8 +2,8 @@
 static const Block blocks[] = {
   /*Icon*//*Command*/       /*Update Interval*/ /*Update Signal*/
   {"", "cat /tmp/recordingicon 2>/dev/null", 0,      9},
-  {"", "sb-playerctl",                       0,      11},
   {"", "sb-packages",                        0,      8},
+  {"", "sb-playerctl",                       0,      11},
   {"", "sb-xkbmap",                          0,      15},
   {"", "sb-forecast",                        3600,   5},
   {"", "sb-disk",                            120,    10},
@@ -23,10 +23,3 @@ static const Block blocks[] = {
 //sets delimeter between status commands. NULL character ('\0') means no delimeter.
 static char delim[] = " | ";
 static unsigned int delimLen = 5;
-
-
-// Have dwmblocks automatically recompile and run when you edit this file in
-// vim with the following line in your vimrc/init.vim:
-
-// autocmd BufWritePost ~/.local/src/dwmblocks/config.h !cd ~/.local/src/dwmblocks/; sudo make install && { killall -q dwmblocks;setsid dwmblocks & }
-
